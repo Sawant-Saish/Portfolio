@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Skills</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">YN</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main class="page-main">
+    <section class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+
+        <!-- ✏️ Add / remove skill cards -->
+        <div class="skill-card reveal">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Semantic markup, responsive layouts, Flexbox, Grid, animations.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, Fetch API, async/await, React basics.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code, Figma, Chrome DevTools.</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">📱</div>
+          <h3>Programming Languages</h3>
+          <p>C , python , JavaScript , java , C++</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🗄️</div>
+          <h3>Backend Basics</h3>
+          <p>Learing</p>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-icon">🎨</div>
+          <h3>AI</h3>
+          <p>LangChain , RAG.</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span class="year"></span> Your Name. Built with HTML, CSS &amp; JS.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
