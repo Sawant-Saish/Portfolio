@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfoilo-website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-    <div>
-        <header>Hi, I'am Saish✌🏽</header>
-        <p>A FullStack Developer in making | Exploring Agentic AI</p>
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">YN</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Saish Sawant</h1>
+      <h2 class="hero-role">Full-Stack Developer in making and Exploring AI </h2>
+      <p class="hero-tagline">Being Courious</p>
+      <div class="hero-buttons">
+        <a href="projects.html" class="btn btn-primary">View My Work</a>
+        <a href="contact.html" class="btn btn-outline">Contact Me</a>
+      </div>
     </div>
-
-
-    <div>
-        main page content
+    <div class="hero-avatar">
+        <img src="WhatsApp Image 2025-05-01 at 00.21.18 (1).jpeg" alt="Saish" class="avatar-photo">
+      <div class="avatar-placeholder">YN</div>
     </div>
+  </main>
 
-
-    <div>
-        footer section
-    </div>
-    
+  <footer class="footer">
+    <p>© <span class="year"></span> Saish Sawant|Exploring</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
